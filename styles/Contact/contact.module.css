@@ -1,0 +1,57 @@
+.ContainerWidth {
+    margin: 0 auto;
+}
+
+.sectionTitle {
+    font-size: calc(30px + 1.25vw);
+}
+
+.sectionBody {
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+.subHeading {
+    font-size: 1.75rem;
+    line-height: 1.5;
+}
+
+.subHeading2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.supportedLink {
+    color: #9B757D;
+}
+
+.supportedLink:hover {
+    color: #294DFF;
+}
+
+.callMeBack {
+    font-size: 20px;
+    padding: 10px 30px;
+}
+
+.leftSide {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding-right: 80px;
+    }
+
+    .leftSide {
+        margin-top: 30%;
+        margin-bottom: 30%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .maxWidthStyle {
+        max-width: 680px;
+    }
+}

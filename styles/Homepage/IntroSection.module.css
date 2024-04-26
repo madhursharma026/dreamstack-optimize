@@ -1,0 +1,303 @@
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.letsTalk {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.letsTalk:hover {
+    color: white;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.sectionTitle {
+    font-size: calc(30px + 1.25vw);
+}
+
+.sectionBody {
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+.openPositionBtn {
+    background: #253053;
+    border: 2px solid #253053;
+    color: white;
+    font-size: 16px;
+}
+
+.openPositionBtn:hover {
+    background: #021fa9;
+    border: 2px solid #021fa9;
+    color: white;
+}
+
+.salesBtn {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 16px;
+}
+
+.salesBtn:hover {
+    background: white;
+    border: 2px solid #021fa9;
+    color: #021fa9;
+}
+
+.imgStyle {
+    clip-path: polygon(0 0, 100% 0, 100% 70%, -25px 100%);
+}
+
+.showAfterLGScrn {
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .showAfterLGScrn {
+        max-width: 400px;
+        margin: auto;
+    }
+}
+
+.BRTagAfterMDScrn {
+    display: none;
+}
+
+@media (min-width: 991px) {
+    .ContainerWidth {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 1399px) {
+    .IntroSection {
+        margin: auto;
+        max-width: 768px;
+    }
+
+    .hideAfterLGScrn {
+        display: none;
+    }
+
+    .showAfterLGScrn {
+        display: block;
+    }
+}
+
+@media (min-width: 1400px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+
+    .rightSide {
+        max-width: 700px;
+        float: right;
+    }
+
+    .imgStyle {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+        min-width: 800px;
+    }
+
+    .openPositionBtn {
+        margin-right: 10px;
+    }
+
+    .showAfterLGScrn {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .openPositionBtn {
+        width: 100%;
+    }
+
+    .salesBtn {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .makeDivAlignCenterAfterLGScrn {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .BRTagAfterMDScrn {
+        display: block;
+    }
+}
+
+@media (max-width: 576px) {
+    .h1CustomFont {
+        font-size: 1.80rem;
+    }
+
+    .h2CustomFont {
+        font-size: 1.65rem;
+    }
+
+    .h3CustomFont {
+        font-size: 1.35rem;
+    }
+
+    .h4CustomFont {
+        font-size: 1.25rem;
+    }
+
+    .h5CustomFont {
+        font-size: 1.05rem;
+    }
+
+    .customFont {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .h1CustomFont {
+        font-size: 2.20rem;
+    }
+
+    .h2CustomFont {
+        font-size: 1.7rem;
+    }
+
+    .h3CustomFont {
+        font-size: 1.4rem;
+    }
+
+    .h4CustomFont {
+        font-size: 1.3530rem;
+    }
+
+    .h5CustomFont {
+        font-size: 1.1530rem;
+    }
+
+    .customFont {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 768px) {
+    .h1CustomFont {
+        font-size: 2.5rem;
+    }
+
+    .h2CustomFont {
+        font-size: 2rem;
+    }
+
+    .h3CustomFont {
+        font-size: 1.75rem;
+    }
+
+    .h4CustomFont {
+        font-size: 1.45rem;
+    }
+
+    .h5CustomFont {
+        font-size: 1.25rem;
+    }
+
+    .customFont {
+        font-size: 20px;
+    }
+}
+
+.bodyContainer1 {
+    background: url("https://www.zoho.com/books/images/india/trustedpartner-2x.png");
+    width: 153px;
+    background-position: -193px -65px;
+    background-size: 1400px 400px;
+    height: 90px;
+}
+
+
+.bodyContainer2 {
+    background: url("https://www.zoho.com/books/images/india/trustedpartner-2x.png");
+    width: 133px;
+    background-position: -379px -66px;
+    background-size: 1400px 400px;
+    height: 90px;
+}
+
+
+.bodyContainer3 {
+    background: url("https://www.zoho.com/books/images/india/trustedpartner-2x.png");
+    width: 104px;
+    background-position: -570px -63px;
+    background-size: 1400px 400px;
+    height: 90px;
+}
+
+
+.bodyContainer4 {
+    background: url("https://www.zoho.com/books/images/india/trustedpartner-2x.png");
+    width: 57px;
+    background-position: -771px -66px;
+    background-size: 1400px 400px;
+    height: 90px;
+}
+
+
+.bodyContainer5 {
+    background: url("https://www.zoho.com/books/images/india/trustedpartner-2x.png");
+    width: 80px;
+    background-position: -908px -63px;
+    background-size: 1400px 400px;
+    height: 90px;
+}
+
+
+.bodyContainer6 {
+    background: url("https://www.zoho.com/books/images/india/trustedpartner-2x.png");
+    width: 163px;
+    background-position: -1057px -63px;
+    background-size: 1400px 400px;
+    height: 90px;
+}
+
+
+.bodyContainer7 {
+    background: url("https://www.zoho.com/books/images/india/trustedpartner-2x.png");
+    width: 153px;
+    background-position: -290px -264px;
+    background-size: 1400px 400px;
+    height: 90px;
+}
+
+
+.bodyContainer8 {
+    background: url("https://www.zoho.com/books/images/india/trustedpartner-2x.png");
+    width: 153px;
+    background-position: -468px -264px;
+    background-size: 1400px 400px;
+    height: 90px;
+}
+
+
+.bodyContainer9 {
+    background: url("https://www.zoho.com/books/images/india/trustedpartner-2x.png");
+    width: 155px;
+    background-position: -647px -264px;
+    background-size: 1400px 400px;
+    height: 90px;
+}
+
+
+.bodyContainer10 {
+    background: url("https://www.zoho.com/books/images/india/trustedpartner-2x.png");
+    width: 155px;
+    background-position: -826px -264px;
+    background-size: 1400px 400px;
+    height: 90px;
+}

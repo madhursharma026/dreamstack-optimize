@@ -1,0 +1,140 @@
+.ContainerWidth {
+    margin: 0 auto;
+    max-width: 1550px;
+}
+
+@media (max-width: 992px) {
+    .ContainerWidth {
+        padding: 0 30px;
+    }
+}
+
+@media (min-width: 991px) {
+    .ContainerWidth {
+        padding: 0 70px;
+    }
+}
+
+@media (max-width: 767px) {
+    .Section1 {
+        text-align: center;
+    }
+}
+
+.testimonialImg {
+    width: 90%;
+}
+
+@media (min-width: 991px) {
+    .testimonialImg {
+        width: 80%;
+    }
+}
+
+.mainHeading {
+    font-size: calc(48px + 1.50vw);
+}
+
+.mainHeading2 {
+    font-size: calc(30px + 1.50vw);
+}
+
+.sectionTitle {
+    font-size: calc(25.5px + 1.25vw);
+    line-height: 1.4;
+    letter-spacing: -1.5px;
+}
+
+.sectionBody {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    letter-spacing: -0.2px;
+}
+
+
+.videoBackground {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.videoBackground .video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 576px) {
+    .makingFontLessBoldAfterSMScrn {
+        font-weight: inherit;
+    }
+}
+
+@media (max-width: 576px) {
+    .h4CustomFont {
+        font-size: 1.25rem;
+    }
+
+    .h5CustomFont {
+        font-size: 1.05rem;
+    }
+
+    .h1CustomFont {
+        font-size: 1.80rem;
+        line-height: 1.3;
+    }
+
+    .customFont{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .h4CustomFont {
+        font-size: 1.3530rem;
+    }
+
+    .h5CustomFont {
+        font-size: 1.1530rem;
+    }
+
+    .h1CustomFont {
+        font-size: 2.20rem;
+        line-height: 1.3;
+    }
+
+    .customFont{
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 768px) {
+    .h4CustomFont {
+        font-size: 1.45rem;
+    }
+
+    .h5CustomFont {
+        font-size: 1.25rem;
+    }
+
+    .h1CustomFont {
+        font-size: 2.5rem;
+        line-height: 1.3;
+    }
+
+    .customFont{
+        font-size: 14px;
+    }
+}
