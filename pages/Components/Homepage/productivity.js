@@ -86,7 +86,7 @@ export default function Productivity() {
                             <div className="card h-100 mt-3" style={{ border: '0' }}>
                                 <div className="row">
                                     <div className="col-4">
-                                        <img src={Image7.src} className="card-img-top" alt="Cloud Computing" />
+                                        <Image className="card-img-top h-100" src={Image7} alt="Dreamstack Cloud Computing" />
                                     </div>
                                     <div className="col-8 pt-3">
                                         <h2 className={`${styles.sectionHeading}`}>Cloud Computing</h2>
@@ -97,7 +97,7 @@ export default function Productivity() {
                             <div className="card h-100 mt-3" style={{ border: '0' }}>
                                 <div className="row">
                                     <div className="col-4">
-                                        <img src={Image8.src} className="card-img-top" alt="Data & Analyti" />
+                                        <Image className="card-img-top h-100" src={Image8} alt="Dreamstack Data & Analytic" />
                                     </div>
                                     <div className="col-8 pt-3">
                                         <h2 className={`${styles.sectionHeading}`}>Data & Analytic</h2>
@@ -108,7 +108,7 @@ export default function Productivity() {
                             <div className="card h-100 mt-3" style={{ border: '0' }}>
                                 <div className="row">
                                     <div className="col-4">
-                                        <img src={Image9.src} className="card-img-top" alt="Cybersecurity" />
+                                        <Image className="card-img-top h-100" src={Image9} alt="Dreamstack Cybersecurity" />
                                     </div>
                                     <div className="col-8 pt-3">
                                         <h2 className={`${styles.sectionHeading}`}>Cybersecurity</h2>
@@ -145,7 +145,7 @@ export default function Productivity() {
                             <div className="row">
                                 <div className="col-lg-4 mt-3">
                                     <div className="card h-100" style={{ border: '0' }}>
-                                        <img src={Image7.src} className="card-img-top" alt="Cloud Computing" />
+                                        <Image className="card-img-top h-100" src={Image7} alt="Dreamstack Cloud Computing" />
                                         <div className="card-body px-3 py-3">
                                             <h2 className={`${styles.sectionHeading}`}>Cloud Computing</h2>
                                             <p className="card-text">Simple time tracking and reporting</p>
@@ -154,7 +154,7 @@ export default function Productivity() {
                                 </div>
                                 <div className="col-lg-4 mt-3">
                                     <div className="card h-100" style={{ border: '0' }}>
-                                        <img src={Image8.src} className="card-img-top" alt="Data & Analytic" />
+                                        <Image className="card-img-top h-100" src={Image8} alt="Dreamstack Data & Analytic" />
                                         <div className="card-body px-3 py-3">
                                             <h2 className={`${styles.sectionHeading}`}>Data & Analytic</h2>
                                             <p className="card-text">Proof of work, time tracking, and team management</p>
@@ -163,7 +163,7 @@ export default function Productivity() {
                                 </div>
                                 <div className="col-lg-4 mt-3">
                                     <div className="card h-100" style={{ border: '0' }}>
-                                        <img src={Image9.src} className="card-img-top" alt="Cybersecurity" />
+                                        <Image className="card-img-top h-100" src={Image9} alt="Dreamstack Cybersecurity" />
                                         <div className="card-body px-3 py-3">
                                             <h2 className={`${styles.sectionHeading}`}>Cybersecurity</h2>
                                             <p className="card-text">GPS location tracking and team management</p>
@@ -172,7 +172,7 @@ export default function Productivity() {
                                 </div>
                                 <div className="col-lg-4 mt-3">
                                     <div className="card h-100" style={{ border: '0' }}>
-                                        <img src={Image10.src} className="card-img-top" alt="Enterprise solution" />
+                                        <Image className="card-img-top h-100" src={Image10} alt="Dreamstack Enterprise solution" />
                                         <div className="card-body px-3 py-3">
                                             <h2 className={`${styles.sectionHeading}`}>Enterprise solution</h2>
                                             <p className="card-text">Simple, Agile project management for productive teams of all sizes</p>
@@ -181,7 +181,7 @@ export default function Productivity() {
                                 </div>
                                 <div className="col-lg-4 mt-3">
                                     <div className="card h-100" style={{ border: '0' }}>
-                                        <img src={Image11.src} className="card-img-top" alt="Blockchain" />
+                                        <Image className="card-img-top h-100" src={Image11} alt="Dreamstack Blockchain" />
                                         <div className="card-body px-3 py-3">
                                             <h2 className={`${styles.sectionHeading}`}>Blockchain</h2>
                                             <p className="card-text">The free and easy way to find remote talent across the world</p>
