@@ -1,10 +1,16 @@
 import Image from 'next/image';
 import styles from '../../../styles/Solution/Section1.module.css';
 import Images1 from "../../media/Solution-Images/solution-image-1.jpg";
+import Images2 from "../../media/Homepage-Images/homepage-image-2.png";
+import Images3 from "../../media/Homepage-Images/homepage-image-3.png";
+import Head from 'next/head';
 
 export default function Section1() {
     return (
         <>
+            <Head>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+            </Head>
             <div className={`p-0 mt-5`}>
                 <div className="bg-primary">
                     <div className={`${styles.ContainerWidth}`}>
@@ -17,14 +23,19 @@ export default function Section1() {
                                     <h1 className={`${styles.sectionTitle} pt-md-5 pt-3 text-white`}><b>End the timesheet battle with simpler agency time trackingg</b></h1>
                                     <button type="button" className={`btn ${styles.openPositionBtn}`} style={{ marginRight: "10px" }}>View open positions</button>
                                     <button type="button" className={`btn ${styles.salesBtn}`} style={{ marginLeft: "10px" }}>Talk to sales</button>
-                                    <p className='mt-4 text-white'>No credit card required. <br className={`${styles.BRTagAfterMDScrn}`} /> Available for: <img src="https://marketing-assets-cms.hubstaff.com/public/images/logos/apple-mark-white.svg" alt="#ImgNotFound" /> &ensp; <img src="https://marketing-assets-cms.hubstaff.com/public/images/logos/android-mark-white.svg" alt="#ImgNotFound" /></p>
+                                    <p className='mt-4 text-white'>No credit card required. <br className={`${styles.BRTagAfterMDScrn}`} /> Available for:
+                                        &ensp;
+                                        <i class="fa fa-apple fs-3" />
+                                        &ensp;
+                                        <i class="fa fa-android fs-3" />
+                                    </p>
                                     <div className="row">
                                         <div className="col-lg-4">
-                                            <img src="https://hubstaff.com/images/logos/capterra-white.svg" alt="#ImgNotFound" />
+                                            <Image src={Images2} alt='Dreamstack Tag 1' className={`h-auto w-auto`} />
                                             <h6 className='p-2'>⭐⭐⭐⭐⭐</h6>
                                         </div>
                                         <div className="col-lg-4">
-                                            <img src="https://hubstaff.com/images/logos/g2-white.svg" alt="#ImgNotFound" />
+                                            <Image src={Images3} alt='Dreamstack Tag 2' className={`h-auto w-auto`} />
                                             <h6 className='p-2'>⭐⭐⭐⭐⭐</h6>
                                         </div>
                                     </div>

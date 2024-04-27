@@ -119,7 +119,7 @@ export default function Productivity() {
                             <div className="card h-100 mt-3" style={{ border: '0' }}>
                                 <div className="row">
                                     <div className="col-4">
-                                        <img src={Image10.src} className="card-img-top" alt="Enterprise solution" />
+                                        <Image className="card-img-top h-100" src={Image10} alt="Dreamstack Enterprise solution" />
                                     </div>
                                     <div className="col-8 pt-3">
                                         <h2 className={`${styles.sectionHeading}`}>Enterprise solution</h2>
@@ -130,7 +130,7 @@ export default function Productivity() {
                             <div className="card h-100 mt-3" style={{ border: '0' }}>
                                 <div className="row">
                                     <div className="col-4">
-                                        <img src={Image11.src} className="card-img-top" alt="Blockchain" />
+                                        <Image className="card-img-top h-100" src={Image11} alt="Dreamstack Blockchain" />
                                     </div>
                                     <div className="col-8 pt-3">
                                         <h2 className={`${styles.sectionHeading}`}>Blockchain</h2>
