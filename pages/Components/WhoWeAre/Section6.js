@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import styles from '../../../styles/WhoWeAre/WhoWeAre.module.css';
 import Img8 from "../../media/WhoWeAre-Images/Image8.png";
 
@@ -11,7 +12,7 @@ export default function Section6() {
                             <div className="row">
                                 <div className='col-lg-6 col-5' style={{ position: 'sticky', top: 100, left: 0, maxHeight: '60vh' }}>
                                     <div style={{ maxWidth: '450px', margin: 'auto' }}>
-                                        <img src={Img8.src} alt="#ImgNotFound" className='w-100' />
+                                        <Image src={Img8} alt="Dreamstack Image" className='w-100 h-auto' />
                                     </div>
                                 </div>
                                 <div className='col-lg-6 col-7' style={{ overflowY: 'auto' }}>
@@ -66,7 +67,7 @@ export default function Section6() {
 
                         <div className="d-md-none d-block">
                             <div style={{ maxWidth: '350px', margin: 'auto' }}>
-                                <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-our-story-sridhar.png" alt="#ImgNotFound" className='w-100' />
+                                {/* <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-our-story-sridhar.png" alt="#ImgNotFound" className='w-100' /> */}
                             </div>
                             <h1 className={`${styles.sectionTitle} mt-4`}>
                                 Craftsmanship, as good as it gets

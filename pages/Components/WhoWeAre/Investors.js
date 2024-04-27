@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import styles from '../../../styles/DataAndAnalytics/Section2.module.css';
 import Images11 from "../../media/WhoWeAre-Images/WhoWeAre-image-11.jpeg";
 
@@ -7,7 +8,7 @@ export default function Investors() {
             <div className={`${styles.ContainerWidth}`}>
                 <div className="row">
                     <div className="col-lg-6 p-lg-5 pt-5 text-center">
-                        <img src={Images11.src} alt="#ImgNotFound" className={`${styles.imgWidth}`} />
+                        <Image src={Images11} alt="Dreamstack INVESTORS" className={`${styles.imgWidth} h-auto`} />
                     </div>
                     <div className="col-lg-6 p-lg-5 pt-5" style={{ margin: 'auto' }}>
                         <div className={`${styles.sectionBody}`}>

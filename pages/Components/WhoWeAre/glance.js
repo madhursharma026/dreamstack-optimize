@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import styles from '../../../styles/WhoWeAre/Galance.module.css';
 import Images2 from "../../media/WhoWeAre-Images/WhoWeAre-image-2.jpeg";
 import Images3 from "../../media/WhoWeAre-Images/WhoWeAre-image-3.jpeg";
@@ -21,7 +22,7 @@ export default function Galance() {
                                 </div>
                             </div>
                             <div className="col-lg-6 p-lg-5 pt-5 text-center" style={{ margin: 'auto' }}>
-                                <img src={Images2.src} alt="#ImgNotFound" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} />
+                                <Image src={Images2} alt="Dreamstack Images" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} />
                             </div>
                         </div>
                     </div>
@@ -37,7 +38,7 @@ export default function Galance() {
                                 </div>
                             </div>
                             <div className="col-lg-6 p-lg-5 pt-5 text-center" style={{ margin: 'auto' }}>
-                                <img src={Images3.src} alt="#ImgNotFound" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} />
+                                <Image src={Images3} alt="Dreamstack Images" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} />
                             </div>
                         </div>
                     </div>
@@ -53,7 +54,7 @@ export default function Galance() {
                                 </div>
                             </div>
                             <div className="col-lg-6 p-lg-5 pt-5 text-center" style={{ margin: 'auto' }}>
-                                <img src={Images4.src} alt="#ImgNotFound" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} />
+                                <Image src={Images4} alt="Dreamstack Images" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} />
                             </div>
                         </div>
                     </div>
@@ -69,17 +70,17 @@ export default function Galance() {
                                 </div>
                             </div>
                             <div className="col-lg-6 p-lg-5 pt-5 text-center" style={{ margin: 'auto' }}>
-                                <img src={Images5.src} alt="#ImgNotFound" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} />
+                                <Image src={Images5} alt="Dreamstack Images" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} />
                             </div>
                         </div>
                     </div>
                 </div>
                 <button className={`${styles.leftArrow} carousel-control-prev`} type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                    <img src="https://www.svgrepo.com/show/346529/arrow-left-circle.svg" alt="#ImgNotFound" width='100px' height='100px' />
+                    <i class="fa fa-arrow-circle-left fs-2" />
                     <span className="visually-hidden">Previous</span>
                 </button>
                 <button className={`${styles.rightArrow} carousel-control-next`} type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                    <img src="https://www.svgrepo.com/show/346529/arrow-left-circle.svg" alt="#ImgNotFound" width='100px' height='100px' />
+                    <i class="fa fa-arrow-circle-right fs-2" />
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>

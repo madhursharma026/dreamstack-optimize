@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import styles from '../../../styles/WhoWeAre/MapService.module.css';
 import Image1 from "../../media/Partner-Images/partner-image-1.png";
 import Image2 from "../../media/Partner-Images/partner-image-2.png";
@@ -18,46 +19,46 @@ export default function Partnerships() {
                 <div className={`${styles.imageSlider}`}>
                     <div className={`${styles.imageSliderTrack}`}>
                     <div className={`${styles.slide}`}>
-                            <img src={Image1.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
+                            <Image src={Image1} alt="Dreamstack Quote Icon" style={{ width: '100%', maxHeight: '65px', objectFit: 'contain' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image2.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
+                            <Image src={Image2} alt="Dreamstack Quote Icon" style={{ width: '100%', maxHeight: '65px', objectFit: 'contain' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image3.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
+                            <Image src={Image3} alt="Dreamstack Quote Icon" style={{ width: '100%', maxHeight: '65px', objectFit: 'contain' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image4.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
+                            <Image src={Image4} alt="Dreamstack Quote Icon" style={{ width: '100%', maxHeight: '65px', objectFit: 'contain' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image5.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
+                            <Image src={Image5} alt="Dreamstack Quote Icon" style={{ width: '100%', maxHeight: '65px', objectFit: 'contain' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image6.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
+                            <Image src={Image6} alt="Dreamstack Quote Icon" style={{ width: '100%', maxHeight: '65px', objectFit: 'contain' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image7.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
+                            <Image src={Image7} alt="Dreamstack Quote Icon" style={{ width: '100%', maxHeight: '65px', objectFit: 'contain' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image1.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
+                            <Image src={Image1} alt="Dreamstack Quote Icon" style={{ width: '100%', maxHeight: '65px', objectFit: 'contain' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image2.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
+                            <Image src={Image2} alt="Dreamstack Quote Icon" style={{ width: '100%', maxHeight: '65px', objectFit: 'contain' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image3.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
+                            <Image src={Image3} alt="Dreamstack Quote Icon" style={{ width: '100%', maxHeight: '65px', objectFit: 'contain' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image4.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
+                            <Image src={Image4} alt="Dreamstack Quote Icon" style={{ width: '100%', maxHeight: '65px', objectFit: 'contain' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image5.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
+                            <Image src={Image5} alt="Dreamstack Quote Icon" style={{ width: '100%', maxHeight: '65px', objectFit: 'contain' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image6.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
+                            <Image src={Image6} alt="Dreamstack Quote Icon" style={{ width: '100%', maxHeight: '65px', objectFit: 'contain' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image7.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
+                            <Image src={Image7} alt="Dreamstack Quote Icon" style={{ width: '100%', maxHeight: '65px', objectFit: 'contain' }} />
                         </div>
                     </div>
                 </div>

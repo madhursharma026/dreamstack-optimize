@@ -18,7 +18,7 @@ export default function OurHistory() {
                                 </div>
                             </div>
                             <div className="col-lg-6 p-lg-5 pt-5 text-center" style={{ margin: 'auto' }}>
-                                <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/1968-FCKohli?wid=337&hei=332&dpr=off" alt="#ImgNotFound" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} />
+                                {/* <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/1968-FCKohli?wid=337&hei=332&dpr=off" alt="#ImgNotFound" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} /> */}
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ export default function OurHistory() {
                                 </div>
                             </div>
                             <div className="col-lg-6 p-lg-5 pt-5 text-center" style={{ margin: 'auto' }}>
-                                <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/1971?wid=502&hei=380&dpr=off" alt="#ImgNotFound" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} />
+                                {/* <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/1971?wid=502&hei=380&dpr=off" alt="#ImgNotFound" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} /> */}
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ export default function OurHistory() {
                                 </div>
                             </div>
                             <div className="col-lg-6 p-lg-5 pt-5 text-center" style={{ margin: 'auto' }}>
-                                <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/1973?wid=502&hei=345&dpr=off" alt="#ImgNotFound" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} />
+                                {/* <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/1973?wid=502&hei=345&dpr=off" alt="#ImgNotFound" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} /> */}
                             </div>
                         </div>
                     </div>
@@ -66,17 +66,17 @@ export default function OurHistory() {
                                 </div>
                             </div>
                             <div className="col-lg-6 p-lg-5 pt-5 text-center" style={{ margin: 'auto' }}>
-                                <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/1979-new?wid=502&hei=345&dpr=off" alt="#ImgNotFound" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} />
+                                {/* <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/1979-new?wid=502&hei=345&dpr=off" alt="#ImgNotFound" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} /> */}
                             </div>
                         </div>
                     </div>
                 </div>
                 <button className={`${styles.leftArrow} carousel-control-prev`} type="button" data-bs-target="#carouselExample121" data-bs-slide="prev">
-                    <img src="https://www.svgrepo.com/show/346529/arrow-left-circle.svg" alt="#ImgNotFound" width='100px' height='100px' />
+                    <i class="fa fa-arrow-circle-left fs-2" />
                     <span className="visually-hidden">Previous</span>
                 </button>
                 <button className={`${styles.rightArrow} carousel-control-next`} type="button" data-bs-target="#carouselExample121" data-bs-slide="next">
-                    <img src="https://www.svgrepo.com/show/346529/arrow-left-circle.svg" alt="#ImgNotFound" width='100px' height='100px' />
+                    <i class="fa fa-arrow-circle-right fs-2" />
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
