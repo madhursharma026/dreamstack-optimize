@@ -4,7 +4,6 @@ import Image12 from "../../media/Homepage-Images/homepage-image-12.png";
 import Image13 from "../../media/Homepage-Images/homepage-image-13.png";
 import Image14 from "../../media/Homepage-Images/homepage-image-14.png";
 import Image15 from "../../media/Homepage-Images/homepage-image-15.png";
-import Image15 from "../../media/Homepage-Images/homepage-image-15.png";
 
 export default function PartnerSection() {
     return (
