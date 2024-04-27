@@ -9,9 +9,6 @@ export default function Section10() {
                 <div className={`${styles.ContainerWidth}`}>
                     <div className="row text-white">
                         <div className="col-md-6">
-                            {/* <h1 className={`${styles.sectionTitle} pt-md-5 pt-3 text-white`}>Want to accelerate your business with AI?</h1>
-                            <p className={`${styles.sectionBody} text-white my-4`}>Talk to one of our solutions architects and get a complimentary GenAI advisory session.</p>
-                            <Link className={`btn btn-primary px-5 py-3`} href="/Turing" role="button"><b>Get Started</b></Link> */}
                             <div className={styles.scrnBeforeMDScrn}>
                                 <h1 className={`${styles.sectionTitle} pt-md-5 pt-3 text-white`}>Want to accelerate your business with AI?</h1>
                                 <p className={`${styles.sectionBody} text-white my-4`}>Talk to one of our solutions architects and get a complimentary GenAI advisory session.</p>

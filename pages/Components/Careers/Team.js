@@ -8,7 +8,6 @@ export default function Team() {
             <div className={`${styles.ContainerWidth}`}>
                 <div className="row" style={{ maxWidth: '1200px', margin: 'auto' }}>
                     <div className="col-lg-6 order-lg-2 pt-md-0 pt-5 text-center" style={{ margin: 'auto' }}>
-                        {/* <img src={Images6.src} alt="#ImgNotFound" className={`${styles.imgWidth}`} /> */}
                             <Image src={Images6} alt="Dreamstack Team Image" className={`${styles.imgWidth}`} />
                     </div>
                     <div className="col-lg-6 p-lg-5 pt-5">

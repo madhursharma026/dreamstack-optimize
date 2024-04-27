@@ -1,5 +1,7 @@
 import styles from '../../../styles/cybersecurity/TalkToExpert.module.css';
 import Link from 'next/link';
+import Image5 from "../../media/DataAndAnalytics-Images/DataAndAnalytics-image-5.jpeg";
+import Image from 'next/image';
 
 export default function TalkToExpert() {
     return (
@@ -7,7 +9,7 @@ export default function TalkToExpert() {
             <div className={`${styles.ContainerWidth} py-4`}>
                 <div className="row">
                     <div className="col-md-6 pt-3">
-                        <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/cto-digital-transformation-improve-business-outcomes_Card_1330_x_1270-1:Extra-Medium?wid=820&hei=681&dpr=off" alt="#ImgNotFound" className='w-100' style={{maxHeight:"300px"}} />
+                        <Image src={Image5} alt='Dreamstack Review Image' className='w-100' style={{ maxHeight: "300px" }} />
                     </div>
                     <div className={`col-md-6 ${styles.rightSide} pt-3`}>
                         <h1 className={`${styles.sectionTitle} text-white`}>Transformation starts here</h1>
