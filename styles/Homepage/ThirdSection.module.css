@@ -1,0 +1,141 @@
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+}
+
+/* Layered Circle Background */
+.circleBackground {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle at center,
+            rgba(198, 255, 0, 0.15) 0%,
+            rgba(198, 255, 0, 0.08) 40%,
+            rgba(198, 255, 0, 0.04) 70%,
+            transparent 100%);
+    animation: breathe 4s ease-in-out infinite;
+    pointer-events: none;
+    z-index: 999;
+    border-radius: 100%;
+}
+
+.circleBackgroundTop {
+    float: right;
+    margin-right: 100px;
+}
+
+.circleBackgroundBottom {
+    position: absolute;
+    margin-left: 100px;
+    top: 90%;
+}
+
+@keyframes breathe {
+    0% {
+        transform: translate(-50%, -50%) scale(0.75);
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.35);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(0.75);
+        opacity: 0.8;
+    }
+}
+
+/* Expert Help Section */
+.expertHelpContainer {
+    background: #0e2a2c;
+    border: 1px solid #c6ff00;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.expertHelpContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.expertHelpText {
+    color: #c6ff00;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.expertHelpButton {
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 999px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 'background 0.3s ease';
+    margin-top: 10px;
+}
+
+.expertHelpButton:hover {
+    background: #eee;
+}
+
+@media (min-width: 768px) {
+    .expertHelpText {
+        font-size: 1.5rem;
+    }
+
+    .desktopBreak {
+        display: block;
+    }
+
+    .expertHelpButton {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .desktopBreak {
+        display: none;
+    }
+
+    .expertHelpContent {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .expertHelpButton {
+        align-self: center;
+    }
+}
+
+/* Common elements */
+.rowWrapper {
+    width: 100%;
+}
+
+.iconWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 8px;
+    border-radius: 8px;
+    transition: 'background 0.3s ease';
+}
+
+.iconWrapper:hover {
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
