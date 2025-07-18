@@ -6,12 +6,14 @@ export default function FirstSection() {
       <div className={`${styles.ContainerWidth}`}>
         <div className="row">
           <div className={`col-lg-6 py-5 mt-xxl-5`}>
-            <h1 className={`${styles.sectionTitle} pt-md-5 pt-3 text-white`}>
+            <h1
+              className={`${styles.sectionTitle} pt-md-5 pt-3 text-white pb-4`}
+            >
               <b>
                 Build an AI-Ready, Trusted Data Foundation for your Enterprise
               </b>
             </h1>
-            <p className={`${styles.sectionBody} text-white`}>
+            <p className={`${styles.sectionBody} text-white pb-4`}>
               Connect every data silo, control your business definitions, and
               consume trusted data in any application — without the cost and
               complexity of data warehouses and integration.

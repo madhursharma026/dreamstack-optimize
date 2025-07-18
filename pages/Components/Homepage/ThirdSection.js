@@ -5,7 +5,7 @@ export default function ThirdSection() {
     <div
       className="pt-md-2 pb-md-3 px-3"
       style={{
-        background: '#113537',
+        background: 'black',
         position: 'relative',
         overflow: 'hidden',
       }}
