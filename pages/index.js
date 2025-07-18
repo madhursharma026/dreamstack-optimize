@@ -3,13 +3,12 @@ import Footer from './Components/Footer'
 import Header from './Components/Header'
 import CustomersSlider from './Components/Homepage/CustomersSlider'
 import FirstSection from './Components/Homepage/FirstSection'
+import FourthSection from './Components/Homepage/FourthSection'
 import KnowledgeSection from './Components/Homepage/KnowledgeSection'
 import LoveTheWeb from './Components/Homepage/LoveTheWeb'
-import MorePowerToYou from './Components/Homepage/MorePowerToYou'
 import PartnerWithUs from './Components/Homepage/PartnerWithUs'
 import Productivity from './Components/Homepage/productivity'
 import SecondSection from './Components/Homepage/SecondSection'
-import Testimonial from './Components/Homepage/Testimonial'
 import ThirdSection from './Components/Homepage/ThirdSection'
 
 export default function Home() {
@@ -86,9 +85,10 @@ export default function Home() {
       <FirstSection />
       <SecondSection />
       <ThirdSection />
+      <FourthSection />
       {/* <IntroSection /> */}
-      <MorePowerToYou />
-      <Testimonial />
+      {/* <MorePowerToYou />
+      <Testimonial /> */}
       <CustomersSlider />
       <Productivity />
       <KnowledgeSection />
